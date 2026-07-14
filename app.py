@@ -6,7 +6,7 @@ import streamlit as st
 st.write("Python:", sys.executable)
 
 # Load model
-model = joblib.load("loan_model.pkl")
+model = joblib.load("loan_prediction_model.pkl")
 
 st.title("🏦 Loan Approval Prediction System")
 
